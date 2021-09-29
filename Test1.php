@@ -22,8 +22,8 @@ function input($i){
 		
 		$res .= $key. "=" ."\"{$value}\"" . " ";
 	}
-	$this->form .= '<input '. $res .'>'.'<br>'. '<br>';
-	
+	$this->form .= '<input '. $res .'>'. '<br>'. '<br>';
+		
 }
 function password($p){
 	$this->p = $p;
